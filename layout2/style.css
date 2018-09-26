@@ -1,0 +1,87 @@
+div{
+	/*border: 1px solid red;*/
+}
+#wrapper
+{
+	width: 1028px;
+	padding: 0px;
+	position: relative;
+	margin-right: 0px auto;
+}
+#absolutediv{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	position: absolute;
+	top: -30px;
+	right: 20px;
+	display: block;
+}
+#facebook{
+	width: 50px;
+	height: 150px;
+	background: pink;
+	position: fixed;
+	right: 0;
+	bottom: 150px;
+
+}
+#header
+{
+	height: 100px;
+	width: 1004px;
+	margin: 10px;
+}
+#content-wrapper
+{	color: #00ff00;
+	padding:  0px;
+	width: 1004px;
+	margin: 10px;
+	height: 512px;
+	background:red;
+}
+#leftpanel,#rightpanel
+{
+	width: 482px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#leftpanel p,#rightpanel p{
+font: normal 12px/18px times New Roman;
+text-indent: 5px;
+text-align: justify;
+
+	}
+#rightpanel{
+	width: 492px!important;
+	margin-right: 10px!important;
+	margin-left: 0px;
+	float: right;
+	color: inherit;
+}
+#footer{
+	width: 1004px;
+	height: 200px;
+	margin: 10px
+}
+img{
+	float: right;
+	margin: 5px;
+
+}
+a.read{background: url(btn.png);width: 82px;height: 25px;background-position: top;display: block;line-height: 25px;color: black;}
+a.read:hover{background: url(btn.png);width: 82px;height: 25px;background-position: bottom;}
+div ~ p{
+	background-color: yellow;
+}
+p::first-line{
+	color: #ff0000;
+	font-variant: small-caps;
+}
+p::first-letter{
+	color: #00ff00;
+	font-size: xx-large;
+}
